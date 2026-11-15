@@ -328,7 +328,15 @@ function renderEventsList() {
 
   const tz = config.canonicalWeddingDate.timeZone || 'Asia/Kolkata';
 
-  container.innerHTML = config.events.map((e, i) => {
+  // Ensure events are rendered in chronological order by isoDate
+  const sortedEvents = [...config.events].sort((a, b) => {
+    if (a.isoDate && b.isoDate) {
+      return a.isoDate.localeCompare(b.isoDate);
+    }
+    return 0;
+  });
+
+  container.innerHTML = sortedEvents.map((e, i) => {
     // Generate automatic numbering: 01, 02, 03...
     const autoNumber = String(i + 1).padStart(2, '0');
 

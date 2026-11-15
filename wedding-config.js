@@ -269,35 +269,15 @@ window.WEDDING_CONFIG = {
   },
 
   // ------------------------------------------------------------------
-  // 8. WEDDING FUNCTIONS / CEREMONIES (DYNAMIC N-EVENTS)
+  // 8. WEDDING FUNCTIONS / CEREMONIES (CHRONOLOGICAL ORDER)
   // ------------------------------------------------------------------
-  // You can ADD, REMOVE, or REORDER any number of ceremonies!
-  //
-  // NOTE:
-  // - Event numbers ("01", "02", ...) are generated AUTOMATICALLY based on order in this list.
-  // - Weekdays ("Friday", "Saturday", ...) are derived AUTOMATICALLY from the isoDate.
-  // - Dates ("20 November 2026") are formatted AUTOMATICALLY from the isoDate.
-  // - Each ceremony supports MULTIPLE timings in the timings array.
-  // - Accent colors can use presets: "mehndi", "haldi", "sangeet", "wedding", "reception"
-  //   OR custom hex colors: { primary: "#2f6b3a", light: "#8fcf8f" }
+  // Chronological Order:
+  // 1. Haldi     – 16 December 2026
+  // 2. Mehendi   – 17 December 2026
+  // 3. Sangeet   – 18 December 2026
+  // 4. Wedding   – 19 December 2026
+  // 5. Reception – 20 December 2026
   events: [
-    {
-      key: "mehndi",
-      title: "Mehndi",
-      isoDate: "2026-12-17", // YYYY-MM-DD
-      timingsLabel: "Time",
-      timings: [
-        "8:00 PM onwards"
-      ],
-      venue: "Our Sweet Home",
-      description: "An evening of vibrant henna, melodious folk songs, and joyful laughter.",
-      dressCode: "Traditional Green / Floral Chic",
-      additionalNotes: "",
-      image: "assets/images/mehndi.jpg",
-      alt: "Aarav and Kiara seated at their colorful Mehndi celebration",
-      objectPosition: "center center",
-      accentTheme: "mehndi"
-    },
     {
       key: "haldi",
       title: "Haldi",
@@ -314,6 +294,23 @@ window.WEDDING_CONFIG = {
       alt: "Shivam and Sayali at their sunlit Haldi ceremony",
       objectPosition: "center center",
       accentTheme: "haldi"
+    },
+    {
+      key: "mehndi",
+      title: "Mehendi",
+      isoDate: "2026-12-17",
+      timingsLabel: "Time",
+      timings: [
+        "8:00 PM onwards"
+      ],
+      venue: "Our Sweet Home",
+      description: "An evening of vibrant henna, melodious folk songs, and joyful laughter.",
+      dressCode: "Traditional Green / Floral Chic",
+      additionalNotes: "",
+      image: "assets/images/mehndi.jpg",
+      alt: "Shivam and Sayali seated at their colorful Mehendi celebration",
+      objectPosition: "center center",
+      accentTheme: "mehndi"
     },
     {
       key: "sangeet",
