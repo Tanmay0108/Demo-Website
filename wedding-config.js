@@ -32,7 +32,7 @@ window.WEDDING_CONFIG = {
   //
   // NOTE: Uses unambiguous ISO-8601 format with explicit timezone offset (+05:30 for IST).
   canonicalWeddingDate: {
-    isoTimestamp: "2026-11-22T21:00:00+05:30", // YYYY-MM-DDTHH:mm:ss+OFFSET
+    isoTimestamp: "2026-12-19T21:00:00+05:30", // YYYY-MM-DDTHH:mm:ss+OFFSET
     timeZone: "Asia/Kolkata",                   // Standard IANA Timezone
     postWeddingMessage: "Happily Married! Thank you for blessing our union."
   },
@@ -42,23 +42,23 @@ window.WEDDING_CONFIG = {
   // ------------------------------------------------------------------
   // Used consistently across Hero, Invitation, Scratch Card, Venue, and Footer.
   primaryLocation: {
-    city: "Jaipur",
-    state: "Rajasthan",
-    displayLocation: "JAIPUR · RAJASTHAN"
+    city: "Chandrapur",
+    state: "Maharashtra",
+    displayLocation: "CHANDRAPUR · MAHARASHTRA"
   },
 
   // ------------------------------------------------------------------
   // 3. SEO & SOCIAL SHARING METADATA
   // ------------------------------------------------------------------
   metadata: {
-    siteTitle: "Aarav & Kiara | Wedding Invitation",
-    metaDescription: "Join Aarav and Kiara as they celebrate their wedding in Jaipur on 22 November 2026.",
+    siteTitle: "Shivam & Sayali | Wedding Invitation",
+    metaDescription: "Join Shivam and Sayali as they celebrate their wedding in Chandrapur on 19 December 2026.",
     themeColor: "#2a0811", // Mobile browser status bar & address bar color
-    
+
     // Set this to your actual deployed domain (e.g., "https://aarav-weds-kiara.netlify.app")
     deploymentUrl: "https://your-wedding-invitation.netlify.app",
-    
-    ogTitle: "Aarav & Kiara are getting married! 💍",
+
+    ogTitle: "Shivam & Sayali are getting married! 💍",
     ogDescription: "We invite you to celebrate our special day with us.",
     ogImage: "assets/images/social-preview.jpg" // Resolved to an absolute URL when deployed
   },
@@ -67,23 +67,23 @@ window.WEDDING_CONFIG = {
   // 4. COUPLE & FAMILY INFORMATION
   // ------------------------------------------------------------------
   couple: {
-    hashtag: "#AaravWedsKiara",
+    hashtag: "#ShivamWedsSayali",
 
     groom: {
-      firstName: "Aarav",
-      fullName: "Aarav Mehta",
+      firstName: "Shivam",
+      fullName: "Shivam Potnurwar",
       label: "THE GROOM",
       parentHeading: "GROOM'S PARENTS",
-      parentsNames: "Rajesh & Sunita Mehta",
+      parentsNames: "Subhash & Vaishali Potnurwar",
       parentInviteNote: "joyfully invite you to bless the couple"
     },
 
     bride: {
-      firstName: "Kiara",
-      fullName: "Kiara Shah",
+      firstName: "Sayali",
+      fullName: "Sayali Totawar",
       label: "THE BRIDE",
       parentHeading: "BRIDE'S PARENTS",
-      parentsNames: "Mahesh & Neeta Shah",
+      parentsNames: "Kishor & Shyamal Totawar",
       parentInviteNote: "and share in this cherished celebration"
     }
   },
@@ -160,12 +160,12 @@ window.WEDDING_CONFIG = {
 
   // Section 7: The Venue & Google Maps
   venueSection: {
-    eyebrow: "Join us in Jaipur",
+    eyebrow: "Join us in Chandrapur",
     title: "The Venue",
-    venueName: "Royal Garden Palace",
-    fullAddress: "Royal Garden Palace, Amer Road, Jaipur, Rajasthan 302002",
+    venueName: "Tadoba Wildlife Resort",
+    fullAddress: "Tadoba Wildlife Resort, Moharli, Chandrapur, Maharashtra 442401",
     directionsButtonLabel: "Get Directions",
-    googleMapsDestinationQuery: "Royal Garden Palace Jaipur" // Used to generate the Google Maps directions link
+    googleMapsDestinationQuery: "Tadoba Wildlife Resort Chandrapur" // Used to generate the Google Maps directions link
   },
 
   // Section 8: RSVP & Family Contacts
@@ -175,10 +175,10 @@ window.WEDDING_CONFIG = {
     mainTitleLine2: "to celebrate with you",
     leadParagraph: "For RSVP and assistance, please contact our family.",
     whatsappButtonLabel: "RSVP on WhatsApp",
-    callButtonLabel: "Call +91 90163 02607",
-    whatsappPhoneNumber: "919016302607", // Digits only (country code + number)
-    whatsappPrefilledMessage: "Hello, I'd like to RSVP for Aarav and Kiara's wedding.",
-    callPhoneNumber: "+919016302607" // Tel link format
+    callButtonLabel: "Call +91 7620861467",
+    whatsappPhoneNumber: "917620861467", // Digits only (country code + number)
+    whatsappPrefilledMessage: "Hello, I'd like to RSVP for Shivam and Sayali's wedding.",
+    callPhoneNumber: "+917620861467" // Tel link format
   },
 
   // Section 9: Website Footer
@@ -284,15 +284,15 @@ window.WEDDING_CONFIG = {
     {
       key: "mehndi",
       title: "Mehndi",
-      isoDate: "2026-11-20", // YYYY-MM-DD
+      isoDate: "2026-12-17", // YYYY-MM-DD
       timingsLabel: "Time",
       timings: [
-        "4:00 PM onwards"
+        "8:00 PM onwards"
       ],
-      venue: "Gulmohar Garden, Jaipur",
+      venue: "Our Sweet Home",
       description: "An evening of vibrant henna, melodious folk songs, and joyful laughter.",
       dressCode: "Traditional Green / Floral Chic",
-      additionalNotes: "Valet parking available at the west gate.",
+      additionalNotes: "",
       image: "assets/images/mehndi.jpg",
       alt: "Aarav and Kiara seated at their colorful Mehndi celebration",
       objectPosition: "center center",
@@ -301,71 +301,70 @@ window.WEDDING_CONFIG = {
     {
       key: "haldi",
       title: "Haldi",
-      isoDate: "2026-11-21",
+      isoDate: "2026-12-16",
       timingsLabel: "Time",
       timings: [
-        "10:00 AM onwards"
+        "7:00 AM onwards"
       ],
-      venue: "Poolside Lawn, Royal Garden Palace, Jaipur",
+      venue: "Our Sweet Home",
       description: "Bathed in auspicious turmeric, love, sunshine, and playful blessings.",
       dressCode: "Shades of Yellow & Ochre",
-      additionalNotes: "Please bring comfortable traditional footwear.",
+      additionalNotes: "",
       image: "assets/images/haldi.jpg",
-      alt: "Aarav and Kiara at their sunlit Haldi ceremony",
+      alt: "Shivam and Sayali at their sunlit Haldi ceremony",
       objectPosition: "center center",
       accentTheme: "haldi"
     },
     {
       key: "sangeet",
       title: "Sangeet",
-      isoDate: "2026-11-21",
+      isoDate: "2026-12-18",
       timingsLabel: "Time",
       timings: [
         "7:30 PM onwards"
       ],
-      venue: "Grand Ballroom, Royal Garden Palace, Jaipur",
+      venue: "Tadoba WildLife Resort, Chandrapur",
       description: "A musical night of breathtaking dance performances, celebration, and cocktails.",
       dressCode: "Evening Glitz & Glamour",
       additionalNotes: "DJ and dancing until late.",
       image: "assets/images/sangeet.jpg",
-      alt: "Aarav and Kiara dancing at their starlit Sangeet",
+      alt: "Shivam and Sayali dancing at their starlit Sangeet",
       objectPosition: "center center",
       accentTheme: "sangeet"
     },
     {
       key: "wedding",
       title: "Wedding",
-      isoDate: "2026-11-22",
+      isoDate: "2026-12-19",
       timingsLabel: "Celebrations",
       timings: [
-        "Baraat · 5:00 PM",
-        "Varmala · 7:00 PM",
-        "Pheras · 9:00 PM",
-        "Dinner · 8:00 PM onwards"
+        "Baraat · 4:30 PM",
+        "Varmala · 5:40 PM",
+        "Dinner · 7:00 PM onwards"
       ],
-      venue: "Royal Palace Lawn, Jaipur",
-      description: "The sacred vows, pheras around the holy fire, and eternal beginnings.",
+      venue: "Tadoba Wildlife Resort, Chandrapur",
+      description: "A beautiful celebration of love, togetherness, and new beginnings.",
       dressCode: "Regal Indian Traditional",
       additionalNotes: "Blessings and dinner follow the Varmala.",
       image: "assets/images/wedding.jpg",
-      alt: "Aarav and Kiara standing together under their wedding mandap",
+      alt: "Shivam and Sayali standing together under their wedding mandap",
       objectPosition: "center 20%",
       accentTheme: "wedding"
     },
     {
       key: "reception",
       title: "Reception",
-      isoDate: "2026-11-23",
+      isoDate: "2026-12-20",
       timingsLabel: "Time",
       timings: [
         "7:00 PM onwards"
       ],
-      venue: "Grand Ballroom, Royal Garden Palace, Jaipur",
-      description: "An elegant royal evening to toast the newlywed couple.",
+      venue: "Balaji Celebration, Gadchandur",
+      description: "An elegant evening to toast the newlywed couple.",
       dressCode: "Black Tie / Royal Formal",
       additionalNotes: "Dinner and formal greetings.",
       image: "assets/images/reception.jpg",
-      alt: "Aarav and Kiara at their elegant evening reception",
+      alt: "Shivam and Sayali at their elegant evening reception",
       objectPosition: "center center",
       accentTheme: "reception"
     }
