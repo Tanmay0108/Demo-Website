@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" id="metaThemeColor" content="#2a0811">
+  <meta name="description" id="metaDescription" content="Wedding Invitation">
+
+  <!-- Open Graph / Social Sharing Metadata -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" id="ogTitle" content="Wedding Invitation">
+  <meta property="og:description" id="ogDescription" content="You are cordially invited to celebrate our wedding.">
+  <meta property="og:image" id="ogImage" content="assets/images/social-preview.jpg">
+  <meta property="og:url" id="ogUrl" content="">
+
+  <title id="pageTitle">Wedding Invitation</title>
+
+  <!-- Preload Essential Fonts -->
+  <link rel="preload" href="assets/fonts/CinzelDecorative-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/Cinzel-Medium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/Cinzel-Bold.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="locked">
+
+  <!-- Global SVG Symbols Defs -->
+  <svg width="0" height="0" style="position:absolute;display:none" aria-hidden="true">
+    <defs>
+      <symbol id="corner" viewBox="0 0 60 60">
+        <g fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round">
+          <path d="M4 58V20C4 11 11 4 20 4h38"/>
+          <path d="M10 58V24c0-8 6-14 14-14h34"/>
+          <path d="M16 30c0-8 6-14 14-14"/>
+          <path d="M20 20c5 0 9 4 9 9-5 0-9-4-9-9z" fill="currentColor" fill-opacity=".25"/>
+          <path d="M34 10c4-4 10-4 14 0M10 34c-4 4-4 10 0 14"/>
+          <circle cx="4" cy="4" r="3" fill="currentColor"/>
+          <circle cx="52" cy="10" r="1.5" fill="currentColor"/>
+          <circle cx="10" cy="52" r="1.5" fill="currentColor"/>
+        </g>
+      </symbol>
+      <symbol id="i-cal" viewBox="0 0 24 24">
+        <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+          <rect x="3.5" y="5" width="17" height="15" rx="2"/>
+          <path d="M3.5 10h17M8 3v4M16 3v4"/>
+        </g>
+      </symbol>
+      <symbol id="i-clock" viewBox="0 0 24 24">
+        <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+          <circle cx="12" cy="12" r="8.5"/>
+          <path d="M12 7.5V12l3 2"/>
+        </g>
+      </symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24">
+        <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round">
+          <path d="M12 21s-6.5-6-6.5-11a6.5 6.5 0 0 1 13 0c0 5-6.5 11-6.5 11z"/>
+          <circle cx="12" cy="10" r="2.4"/>
+        </g>
+      </symbol>
+      <symbol id="i-home" viewBox="0 0 24 24">
+        <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round">
+          <path d="M4 11l8-6.5 8 6.5V20H4z"/>
+          <path d="M10 20v-5h4v5"/>
+        </g>
+      </symbol>
+      <symbol id="i-heart" viewBox="0 0 24 24">
+        <path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" d="M12 20s-7.5-4.6-7.5-10A4.3 4.3 0 0 1 12 7.4 4.3 4.3 0 0 1 19.5 10c0 5.4-7.5 10-7.5 10z"/>
+      </symbol>
+      <symbol id="i-phone" viewBox="0 0 24 24">
+        <path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" d="M5 4h3.5l1.6 4.2-2.2 1.4a11 11 0 0 0 5.5 5.5l1.4-2.2L19 14.5V18a2 2 0 0 1-2 2A14 14 0 0 1 3 6a2 2 0 0 1 2-2z"/>
+      </symbol>
+      <symbol id="i-wa" viewBox="0 0 24 24">
+        <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round">
+          <path d="M4 20l1.2-4A8.5 8.5 0 1 1 8 18.8z"/>
+          <path d="M9 8.5c0 3.5 3 6.5 6.5 6.5l1-1.6-2-1-1 1c-1.2-.5-2.4-1.7-2.9-2.9l1-1-1-2z" fill="currentColor" stroke="none"/>
+        </g>
+      </symbol>
+      <symbol id="i-finger" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M9 2.5a1.6 1.6 0 0 1 1.6 1.6v6.2l.6-.1V8.6a1.5 1.5 0 0 1 3 0v1.7l.5-.1a1.5 1.5 0 0 1 3 .2v1.1l.3-.1a1.5 1.5 0 0 1 2 1.4V16c0 3.3-2.5 6-5.8 6h-1.5c-2 0-3.8-1-4.9-2.7l-3.1-4.8a1.5 1.5 0 0 1 2.3-1.9l1.6 1.6V4.1A1.6 1.6 0 0 1 9 2.5z"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <!-- Section 0: Opening Curtain Screen (Full-Screen Overlay) -->
+  <section class="opening" id="opening">
+    <div class="opening-inner">
+      <img id="openingCoverImg" src="assets/images/cover.jpg" alt="Palace Garden Cover">
+      <div class="opening-shade"></div>
+      <div class="frame" data-c="geo" style="--cs:64px;--co:-4px"></div>
+      <div class="opening-top">
+        <p class="hindi" id="openingMantra">॥ श्री गणेशाय नमः ॥</p>
+      </div>
+      <div class="opening-bottom">
+        <p class="tag" id="openingWelcomeTag">YOU ARE CORDIALLY INVITED</p>
+        <h1 class="foil" id="openingHashtag">#Wedding</h1><br>
+        <button class="btn-gold" id="openInvite" type="button">Open Invitation</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ambient Falling Rose Petals Layer -->
+  <div class="petals"><div class="petals-in" id="petals"></div></div>
+
+  <!-- Main Mobile App Wrapper -->
+  <div class="app">
+    <div class="invite" id="invite" aria-hidden="true">
+
+      <!-- Section 1: Hero Section -->
+      <section class="hero" id="home">
+        <img id="heroCoupleImg" src="assets/images/hero.jpg" alt="Couple portrait">
+        <div class="frame" data-c="geo" style="--cs:64px;--co:-4px"></div>
+        <div class="hero-copy">
+          <p class="small" id="heroTogetherText">TOGETHER WITH THEIR FAMILIES</p>
+          <h2>
+            <span class="foil" id="heroGroomFirstName">Aarav</span>
+            <span class="amp"><span class="foil">&amp;</span></span>
+            <span class="foil" id="heroBrideFirstName">Kiara</span>
+          </h2>
+          <div class="date-pill"><i></i><span id="heroDatePill">22 · 11 · 2026</span><i></i></div>
+        </div>
+        <a href="#invitation" class="scroll-cue" id="heroScrollCue" aria-label="Scroll down">&#8964;</a>
+      </section>
+
+      <!-- Section 2: Sacred Invitation Section -->
+      <section class="royal" id="invitation">
+        <p class="hindi rv" id="invitationMantra">॥ शुभ विवाह ॥</p>
+        <p class="eyebrow rv" id="invitationEyebrow">A celebration of love</p>
+        <h2 class="title rv">
+          <span id="invitationTitle1">Two Hearts</span>
+          <span class="s"><span class="foil" id="invitationTitle2">one beautiful beginning</span></span>
+        </h2>
+        <i class="dv rv"></i>
+        <p class="lead rv" id="invitationLead">With immense joy in our hearts, we invite you to grace the wedding of</p>
+        <div class="couple rv">
+          <div class="person">
+            <small id="groomLabel">THE GROOM</small>
+            <strong><span class="foil" id="groomFullName">Aarav Mehta</span></strong>
+            <p id="groomParentsLine">Son of Rajesh &amp; Sunita Mehta</p>
+          </div>
+          <div class="seal">
+            <svg class="mandala" data-mandala="b" viewBox="0 0 200 200"></svg>
+            <span>&amp;</span>
+          </div>
+          <div class="person">
+            <small id="brideLabel">THE BRIDE</small>
+            <strong><span class="foil" id="brideFullName">Kiara Shah</span></strong>
+            <p id="brideParentsLine">Daughter of Mahesh &amp; Neeta Shah</p>
+          </div>
+        </div>
+        <p class="city rv" id="invitationCity">JAIPUR · RAJASTHAN</p>
+      </section>
+
+      <!-- Section 3: Interactive Scratch-to-Reveal Card -->
+      <section class="royal low" id="scratch">
+        <svg class="mbg" data-mandala="b" viewBox="0 0 200 200"></svg>
+        <svg class="mbg r" data-mandala="b" viewBox="0 0 200 200"></svg>
+        <p class="eyebrow rv" id="scratchEyebrow">A little surprise</p>
+        <h2 class="title rv" id="scratchTitle">Save Our Date</h2>
+        <p class="hint rv" id="scratchHint">Scratch the golden seal to reveal</p>
+        <div class="sframe rv">
+          <div class="medal" id="medal">
+            <div class="coin">
+              <div class="coin-in">
+                <div class="reveal" aria-live="polite">
+                  <span id="revealWeekday">SUNDAY</span>
+                  <strong class="foil" id="revealDay">22</strong>
+                  <span id="revealMonthYear">NOVEMBER · 2026</span>
+                  <em id="revealCity">Jaipur</em>
+                </div>
+                <canvas id="scratchCanvas" aria-label="Scratch to reveal the wedding date"></canvas>
+              </div>
+            </div>
+            <svg class="finger"><use href="#i-finger"/></svg>
+          </div>
+        </div>
+        <button class="link-btn" id="revealDate" type="button">TAP TO REVEAL INSTEAD</button>
+      </section>
+
+      <!-- Section 4: Our Beloved Families -->
+      <section class="royal fam-wrap" id="families">
+        <svg class="mbg" data-mandala="b" viewBox="0 0 200 200"></svg>
+        <svg class="mbg r" data-mandala="b" viewBox="0 0 200 200"></svg>
+        <p class="eyebrow rv" id="familiesEyebrow">With the blessings of</p>
+        <h2 class="title rv" id="familiesTitle">Our Beloved Families</h2>
+        <i class="dv rv"></i>
+        <article class="fam rv">
+          <small id="groomParentsHeading">GROOM'S PARENTS</small>
+          <h3><span class="foil" id="groomParentsNames">Rajesh &amp; Sunita Mehta</span></h3>
+          <p id="groomParentsNote">joyfully invite you to bless the couple</p>
+        </article>
+        <i class="fleur rv"></i>
+        <article class="fam rv">
+          <small id="brideParentsHeading">BRIDE'S PARENTS</small>
+          <h3><span class="foil" id="brideParentsNames">Mahesh &amp; Neeta Shah</span></h3>
+          <p id="brideParentsNote">and share in this cherished celebration</p>
+        </article>
+      </section>
+
+      <!-- Section 5: Wedding Functions / Events Timeline -->
+      <section class="royal low" id="events">
+        <svg class="mbg" data-mandala="b" viewBox="0 0 200 200" style="top:22%"></svg>
+        <svg class="mbg r" data-mandala="b" viewBox="0 0 200 200" style="top:22%"></svg>
+        <svg class="mbg" data-mandala="b" viewBox="0 0 200 200" style="top:50%"></svg>
+        <svg class="mbg r" data-mandala="b" viewBox="0 0 200 200" style="top:50%"></svg>
+        <svg class="mbg" data-mandala="b" viewBox="0 0 200 200" style="top:78%"></svg>
+        <svg class="mbg r" data-mandala="b" viewBox="0 0 200 200" style="top:78%"></svg>
+        <p class="eyebrow rv" id="eventsEyebrow">The wedding week</p>
+        <h2 class="title rv">
+          <span id="eventsTitle1">Come Celebrate</span>
+          <span class="s"><span class="foil" id="eventsTitle2">with us</span></span>
+        </h2>
+        <i class="dv rv"></i>
+        <p class="lead rv" id="eventsLead" style="margin-top:0">Five beautiful moments, one unforgettable story.</p>
+        <!-- Dynamic Ceremony Cards Container -->
+        <div id="eventsList"></div>
+      </section>
+
+      <!-- Section 6: Live Countdown Timer -->
+      <section class="royal" id="countdown">
+        <svg class="mbg" data-mandala="b" viewBox="0 0 200 200"></svg>
+        <svg class="mbg r" data-mandala="b" viewBox="0 0 200 200"></svg>
+        <p class="eyebrow rv" id="countdownEyebrow">Until we say “I do”</p>
+        <h2 class="title rv" id="countdownTitle">Counting Every Moment</h2>
+        <i class="dv rv"></i>
+        <div class="cdx rv" id="countdownDisplay" aria-live="polite">
+          <div class="cd-days">
+            <svg class="cd-ring" viewBox="0 0 200 200">
+              <circle cx="100" cy="100" r="94" class="trk"/>
+              <circle cx="100" cy="100" r="94" class="prg" id="secRing"/>
+            </svg>
+            <div class="cd-core">
+              <small id="daysPrefix">ONLY</small>
+              <strong class="foil" id="days">00</strong>
+              <span id="daysSuffix">DAYS TO GO</span>
+            </div>
+          </div>
+          <div class="cd-row">
+            <div class="u"><strong id="hours">00</strong><span id="hoursLabel">HOURS</span></div>
+            <i>:</i>
+            <div class="u"><strong id="minutes">00</strong><span id="minutesLabel">MINUTES</span></div>
+            <i>:</i>
+            <div class="u"><strong id="seconds">00</strong><span id="secondsLabel">SECONDS</span></div>
+          </div>
+        </div>
+        <p class="cd-date rv" id="countdownFooterDate">Sunday · 22 November 2026 · Jaipur</p>
+      </section>
+
+      <!-- Section 7: The Venue & Google Maps Navigation -->
+      <section class="royal low" id="venue">
+        <p class="eyebrow rv" id="venueEyebrow">Join us in Jaipur</p>
+        <h2 class="title rv" id="venueTitle">The Venue</h2>
+        <div class="vplain rv">
+          <p class="venue-name"><span class="foil" id="venueName">Royal Garden Palace</span></p>
+          <p class="venue-addr" id="venueAddress">Royal Garden Palace, Amer Road, Jaipur, Rajasthan</p>
+          <p class="city" id="venueCityState" style="margin-top:6px">JAIPUR · RAJASTHAN</p>
+          <a class="btn-gold" id="venueDirectionsBtn" href="#" target="_blank" rel="noreferrer">
+            <svg><use href="#i-pin"/></svg><span id="venueDirectionsBtnLabel">Get Directions</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- Section 8: RSVP & Family Contacts -->
+      <section class="royal" id="rsvp">
+        <svg class="mbg" data-mandala="b" viewBox="0 0 200 200"></svg>
+        <svg class="mbg r" data-mandala="b" viewBox="0 0 200 200"></svg>
+        <p class="eyebrow rv" id="rsvpEyebrow">Kindly respond</p>
+        <h2 class="title rv">
+          <span id="rsvpTitle1">We Can't Wait</span>
+          <span class="s"><span class="foil" id="rsvpTitle2">to celebrate with you</span></span>
+        </h2>
+        <i class="dv rv"></i>
+        <p class="lead rv" id="rsvpLead" style="margin-top:0">For RSVP and assistance, please contact our family.</p>
+        <div class="rv">
+          <div class="rsvp-actions">
+            <a class="btn-gold" id="rsvpWhatsappBtn" href="#" target="_blank" rel="noreferrer">
+              <svg><use href="#i-wa"/></svg><span id="rsvpWhatsappBtnLabel">RSVP on WhatsApp</span>
+            </a>
+            <a class="btn-line" id="rsvpCallBtn" href="#">
+              <svg><use href="#i-phone"/></svg><span id="rsvpCallBtnLabel">Call Contact</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 9: Royal Footer -->
+      <footer class="royal low">
+        <p class="names">
+          <span class="foil" id="footerGroomName">Aarav</span>
+          <span class="amp"><span class="foil">&amp;</span></span>
+          <span class="foil" id="footerBrideName">Kiara</span>
+        </p>
+        <p class="hash" id="footerHashtag">#AaravWedsKiara</p>
+        <small id="footerDateCity">22 NOVEMBER 2026 · JAIPUR</small>
+        <p class="thanks" id="footerThanks">Your presence is the most precious gift for us.</p>
+      </footer>
+
+    </div>
+  </div>
+
+  <!-- Persistent Bottom Floating Navigation Dock -->
+  <nav class="dock" id="dock" aria-label="Quick navigation">
+    <a href="#home" class="on">
+      <svg><use href="#i-home"/></svg>
+      <span id="navHomeLabel">HOME</span>
+    </a>
+    <a href="#events">
+      <svg><use href="#i-cal"/></svg>
+      <span id="navEventsLabel">EVENTS</span>
+    </a>
+    <a href="#venue">
+      <svg><use href="#i-pin"/></svg>
+      <span id="navVenueLabel">VENUE</span>
+    </a>
+    <a href="#rsvp">
+      <svg><use href="#i-heart"/></svg>
+      <span id="navRsvpLabel">RSVP</span>
+    </a>
+  </nav>
+
+  <!-- Load User Configuration (Single Source of Truth) -->
+  <script src="wedding-config.js"></script>
+
+  <!-- Main Application Logic & Dynamic Hydration -->
+  <script type="module" src="app.js"></script>
+
+</body>
+</html>
+
