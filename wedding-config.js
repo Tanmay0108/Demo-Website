@@ -32,7 +32,7 @@ window.WEDDING_CONFIG = {
   //
   // NOTE: Uses unambiguous ISO-8601 format with explicit timezone offset (+05:30 for IST).
   canonicalWeddingDate: {
-    isoTimestamp: "2026-12-19T21:00:00+05:30", // YYYY-MM-DDTHH:mm:ss+OFFSET
+    isoTimestamp: "2026-12-19T17:40:00+05:40", // YYYY-MM-DDTHH:mm:ss+OFFSET
     timeZone: "Asia/Kolkata",                   // Standard IANA Timezone
     postWeddingMessage: "Happily Married! Thank you for blessing our union."
   },
@@ -211,7 +211,7 @@ window.WEDDING_CONFIG = {
     // Hero section couple portrait
     heroCouplePortrait: {
       src: "assets/images/hero.jpg",
-      alt: "Aarav and Kiara together at a palace at sunset",
+      alt: "Shivam and Sayali together at a palace at sunset",
       objectPosition: "center 30%"
     },
 
@@ -257,14 +257,14 @@ window.WEDDING_CONFIG = {
     // Venue photo
     venuePhoto: {
       src: "assets/images/venue.jpg",
-      alt: "Royal Garden Palace Jaipur",
+      alt: "Tadoba Wildlife Resort, Chandrapur",
       objectPosition: "center center"
     },
 
     // Social preview thumbnail (WhatsApp / Instagram / iMessage)
     socialPreview: {
       src: "assets/images/social-preview.jpg",
-      alt: "Aarav & Kiara Wedding Invitation"
+      alt: "Shivam and Sayali Wedding Invitation"
     }
   },
 
